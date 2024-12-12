@@ -1,7 +1,4 @@
-// '2025-01-01 00:00:00'
-// '2024-12-12 11:55:00'
-
-const newYear = new Date('2024-12-12 12:06:00');
+const newYear = new Date('2025-01-01 00:00:00');
 
 function formatTime(time) {
   return time.toString().padStart(2, '0');
