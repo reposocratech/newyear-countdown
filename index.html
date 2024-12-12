@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @font-face {
+        font-family: 'Snow For Santa';
+        src: url('snow-for-santa/SnowForSanta.ttf') format('truetype');
+      }
+
+      body {
+        font-family: 'Snow For Santa';
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Cuenta atrás año nuevo</title>
+  </head>
+  <body>
+    <main>
+      <section class="container-start">
+        <h1>🥳 Cuenta atrás para el 2025 🎉</h1>
+
+        <div class="countdown">
+          <div class="time-block">
+            <span id="days"> 00 </span>
+            <span class="label"> Días </span>
+          </div>
+          <div class="time-block">
+            <span id="hours"> 00 </span>
+            <span class="label"> Horas </span>
+          </div>
+          <div class="time-block">
+            <span id="minutes"> 00 </span>
+            <span class="label"> Minutos </span>
+          </div>
+          <div class="time-block">
+            <span id="seconds"> 00 </span>
+            <span class="label"> Segundos </span>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-end">
+        <h1>🎉 Feliz 2025 🎉</h1>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
